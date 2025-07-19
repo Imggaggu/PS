@@ -16,7 +16,7 @@ int main(){
     for (int i=0; i<n;i++){
         label[v[i]]++;
     }
-    for (int i=0; i<16; i++){
+    for (int i=0; i<17; i++){
         cnt+=(label[i]+k-1)/k;
     }
     cout<<cnt;
